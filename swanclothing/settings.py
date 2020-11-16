@@ -26,7 +26,7 @@ SECRET_KEY = '9m$rz4r&(j9$%+2^%z(8_s+2spd!5@wj!8ty_p3rkn1-e-5*-n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =  True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tobaskid=swanclothing.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -119,6 +119,11 @@ WSGI_APPLICATION = 'swanclothing.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
