@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpeg') no-repeat center center fixed;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -184,21 +184,22 @@ input[name='q']::placeholder {
 }
 
 /* Allauth form formatting */
+
 .allauth-form-inner-content p {
-    margin-top: 3.5rem; /* mt-0 */
-    color: #6c7570; /*text secoundry */
+    margin-top: 1.5rem; /* mt-4 */
+    color: #6c757d; /* text-secondary */
 }
 
-.allauth-form-inner-content input{
+.allauth-form-inner-content input {
     border-color: #000;
     border-radius: 0;
 }
 
-.allauth-form-inner-content label:not([form='id_remember']) {
+.allauth-form-inner-content label:not([for='id_remember']) {
     display: none;
 }
 
-.allauth-form-inner-content input: :placeholder {
+.allauth-form-inner-content input::placeholder {
     color: #aab7c4;
 }
 
@@ -288,5 +289,41 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
     }
 }
