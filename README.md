@@ -1,12 +1,11 @@
 [![Build Status](https://travis-ci.org/p0wen/puffins.svg?branch=master)](https://travis-ci.org/p0wen/puffins)
 
-# Puffins
+# Swanclothing
 
-[![Puffins](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_amiresponsive.gif)](https://thepuffins.herokuapp.com)
+[![Swanclothing](https://s3.console.aws.amazon.com/s3/buckets/tobaskid-swanclothing?region=eu-west-1&tab=objects)](https://tobaskid-swanclothing.herokuapp.com/)
 
-_"Always be yourself. Unless you can be a puffin, then always be a puffin."_
 
-We at [__puffins__](https://thepuffins.herokuapp.com) are dedicated to provide beautiful, uniting and sustainable products to individuals, love birds and families. With our mehtod to only produce whats demanded by our customers and delivering longlasting, high quality products we want to counter the biggest problems of the western society. Our products are locally produced in Europe and we only use materials where we know the origin, to guarantee 100% ethical and sustainable products.
+We at [__Swanclothing__](https://tobaskid-swanclothing.herokuapp.com/) are dedicated to provide beautiful, uniting and sustainable products to individuals, love birds and families. With our mehtod to only produce whats demanded by our customers and delivering longlasting, high quality products we want to counter the biggest problems of the western society. Our products are locally produced in Europe and we only use materials where we know the origin, to guarantee 100% ethical and sustainable products.
 
 This site is the final Milestone Projects that made up the Full Stack Web Development Course at Code Institute. The core requirements focus on bulding a fullstack site with the use of Django, Python, JavaScript, HTML, CSS and a relational database. The final result is hosted on Heroku, while storing static and media files on an S3 Cloudstorage from AWS. The store is connected to [Stripe](www.stripe.com).
 
@@ -18,7 +17,7 @@ To test the site incl. the checkout process please use the test credit card numb
 
 # Table of Content
 
-- [Puffins](#puffins)
+- [Swanclothing](#Swanclothing)
 - [Table of Content](#table-of-content)
 - [UXD Considerations](#uxd-considerations)
   * [Purpose and Aim of the Project](#purpose-and-aim-of-the-project)
@@ -32,7 +31,6 @@ To test the site incl. the checkout process please use the test credit card numb
   * [Data Models](#data-models)
 - [Features](#features)
   * [Navbar](#navbar)
-  * [Footer](#footer)
   * [Landing Page](#landing-page)
   * [About Page](#about-page)
   * [Help / Contact Page](#help---contact-page)
@@ -68,23 +66,27 @@ To test the site incl. the checkout process please use the test credit card numb
 
 ## Purpose and Aim of the Project
 
-The aim of this project is to create an ecommerce shop for sustainable clothing especially targeted towards young couples and families. The goal is to create this shop as an interactive fullstack website that allows customers to browse products, make purchases by credit card and if registered manage a wishlist or see their orderhistory. These goals should be supported by providing a clean and easy to use website that allows seamless navigation and has a low bounce rate.
+The aim of this project is to create an ecommerce shop for sustainable clothing and some home equitment. 
+The goal is to create this shop as an interactive fullstack website that allows customers to browse products, 
+make purchases by credit card and if registered manage a wishlist or see their orderhistory. 
+These goals should be supported by providing 
+a clean and easy to use website that allows seamless navigation and has a low bounce rate.
 
 ## Design process
-Before laying out the project and creating an initial design market research was done. During this research phase the following questions were also acknowledged: 
+Before laying out the project and creating an initial design market research was done. 
+During this research phase the following questions were also acknowledged: 
 * How do other stores look?
 * What are typical design patterns used across stores?
 * Which site are appealing to me?
 * Which kind of stores fit to my business idea? 
 
-The final layout was influenced by the following sites:
-* [twothirds.com](https://twothirds.com/)
-* [taylorstich.com](https://www.taylorstitch.com/)
-* [manitober.de](https://www.manitober.de/)
 
 ## Target group
 
-The shop is targeted to women and men alike. The typical age of a shopper is estimated to be between 25 and 40 years. Especially couples and small families are targeted with the products. The families usually have 1-2 children in the age of 6 month up to 12 years. All customers have mindset respecting the environment and favoring sustainable products. The income of the target group is an average mid to high household income. Furthermore the target group has a passion for living outdoors and owning sustainable high quality products to use in day to day life.
+The shop is targeted to women and men alike.
+ The typical age of a shopper is estimated to be between 25 and 40 years. Especially couples and small families are targeted with the products. 
+All customers have mindset respecting the environment and favoring sustainable products. 
+ The income of the target group is an average mid to high household income. Furthermore the target group has a passion for living outdoors and owning sustainable high quality products to use in day to day life.
 
 ## Epics & User Stories
 Before the start of the Project the Epics and User Stories were defined and written out to have complete set of necessary features to get the site going. In total 6 Epics were defined and user stories were broken down into 3 user groups:
@@ -149,45 +151,18 @@ The whole figma project can be accessed here:
 
 #### Logo
 
-The puffins logo was created by [polardots](https://www.polardots.studio/). It shows a vector style puffin stand upright and is signaling joy to the world!
 
-![Puffins Logo](https://thepuffins.s3.amazonaws.com/media/puffin_icon.png)
+![swanclothing  Logo](https://thepuffins.s3.amazonaws.com/media/swanclothing .png)
 
-The puffins text logo was created by me with [Figma](www.figma.com).
+The swanclothing text logo was created by me with (https://www.canva.com/).
 
-![Puffins Textlogo](https://thepuffins.s3.amazonaws.com/media/puffins_logo_dark.svg)
 
-#### Color Scheme
-
-The color scheme was chosen with the goal to represent a lightweight modern website. The colors are taken from the base colors of the puffin bird.
-
-![Color Scheme](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_colorscheme.png)
-
-#### Components
-
-Components were created in [Figma](www.figma.com):
-
-![Puffins - Components](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_components.png)
 
 #### Wireframes
 
 The whole figma project can be accessed here:
-[Puffins - Wireframes](https://www.figma.com/file/MhxXXrKoRhGyWMhX1cug2U/puffins?node-id=0%3A1)
+[Swanclothing - Wireframes](https://www.figma.com/file/alKI88i1PnJB5BCopIdWNy/Wireframe_example?node-id=270675%3A68)
 
-Mobile:
-
-![Puffins - Mobile](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_mobile.png)
-
-Medium - width screen:
-
-![Puffins - Mobile](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_medium.png)
-
-Desktop - large screen:
-![Puffins - Mobile](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_large.png)
-
-### Final Layout
-
-![Puffins](https://thepuffins.s3.eu-central-1.amazonaws.com/github-docs/puffins_amiresponsive.gif)
 
 # Information Architecture 
 
@@ -327,13 +302,7 @@ The structure of the products and checkout app are based on the [Boutique Ado](h
 | body                | TextField()                                                                         |
 | slug                | SlugField(unique=True, max_length=250, default=None)                                |
 | created_at          | DateTimeField(auto_now_add=True, null=False)                                        |
-| updated_at          | DateTimeField(auto_now=True, null=False)                                            |
-| title_image         | ImageField(null=True, blank=True)                                                   |
-| title_image_url_1   | URLField(max_length=1024, null=True, blank=True)                                    |
-| content_image_1     | ImageField(null=True, blank=True)                                                   |
-| content_image_url_1 | URLField(max_length=1024, null=True, blank=True)                                    |
-| content_image_2     | ImageField(null=True, blank=True)                                                   |
-| content_image_url_2 | URLField(max_length=1024, null=True, blank=True)                                    |
+| updated_at          | DateTimeField(auto_now=True, null=False)                                            |                                                                      |                 |
 
 # Features
 The following features were thought of. 
@@ -344,62 +313,45 @@ The following features were thought of.
 * Logged in and non-logged in users see different options :white_check_mark:
 * Searchbar opens below nav when search icon is clicked :white_check_mark:
 * Fixed to top and transparent :white_check_mark:
-* Changes background and font color on scroll :white_check_mark:
-* Changes background and font color if collapsed on small screens :white_check_mark:
 
-## Footer
-* Logo is displayed :white_check_mark:
-* Quicklinks to products are available :white_check_mark:
-* Contact details are accessabile :white_check_mark:
-* Link to About page is present :white_check_mark:
-* Sign Up for Newsletter subscription :toolbox:
+
 
 ## Landing Page
 * Caroussel with image also behind nav :white_check_mark:
 * Random featured products are chosen to be displayed in caroussel :white_check_mark:
 * Images for featured icons are different from the product picture to be even more appealing :toolbox:
 
-## About Page
-* Vision is diplayed :white_check_mark:
-* Short introduction to company is provided :white_check_mark:
-* Images of company founders and founder portrait :toolbox:
-
-## Help / Contact Page
-* FAQ are diplayed :white_check_mark:
-* FAQs are categorized :white_check_mark:
-* Contact form available for User :white_check_mark:
-* Chat Option to provide direct support :toolbox:
 
 ## Shop
-* Products can be browsed by Category (e.g. Kids) :white_check_mark:
-* Products can be browsed by Category & Productline (e.g. Kids -> T-Shirt) :white_check_mark:
+* Products can be browsed by Category
+* Products can be browsed by Category & Productline (e.g.T-Shirt) 
 * Products can be sorted by...  
-   ...Featured Products :white_check_mark:  
-   ...Price :white_check_mark:
-   ...Color :white_check_mark:  
-   ...Name :white_check_mark:  
+   ...Featured Products
+   ...Price 
+   ...Color  
+   ...Name  
 * Products have different labels based on  
-   Normal Product :white_check_mark:  
-   Sale Product :white_check_mark:  
-   Pre-Order Productn:white_check_mark:  
-* Product Details have a Select Option if different sizes are available :white_check_mark:
-* Product Details have only a "Add to Cart" button if unisize item :white_check_mark:
-* Partnerlook Section sorts products by name to display matching items side by side :white_check_mark:
+   Normal Product  
+   Sale Product 
+   Pre-Order Productn
+* Product Details have a Select Option if different sizes are available.
+* Product Details have only a "Add to Cart" button if unisize item.
+* Partnerlook Section sorts products by name to display matching items side by side.
 * Product can be shared on social media :toolbox:
 
 If registered: 
-* Product Details allow user to add/remove product to/from wishlist :white_check_mark:
+* Product Details allow user to add/remove product to/from wishlist.
 
 ## Highlights
-* Products a prominently display :white_check_mark:
-* only featured items are rendered :white_check_mark:
+* Products a prominently display 
+* only featured items are rendered
 
 ## Cart
-* Cart is present in Side Drawer Container :white_check_mark:
-* Newest Item is always presented on top :white_check_mark:
-* Total inkl. Tax & Shipping :white_check_mark:
-* Checkout straight from Cart Side Drawer  :white_check_mark:
-* Add to cart renders updated cart via Ajax-Request :white_check_mark:
+* Cart is present in Side Drawer Container 
+* Newest Item is always presented on top 
+* Total inkl. Tax & Shipping
+* Checkout straight from Cart Side Drawer 
+* Add to cart renders updated cart via Ajax-Request
 * Increase/Decrease Quantity request via Ajax within Side Drawer Cart :toolbox:
 * Remove Items from Cart ia Ajax-Request within Side Drawer Cart :toolbox:
 * Reserve requested item & quantity to for 10 Min. to avoid checkouts with unavailable products :toolbox:
@@ -415,7 +367,6 @@ If registered:
 * general discount codes can be used :toolbox:
 * personalized discount codes can be used :toolbox:
 * Users receives order updates when order status changes :toolbox:
-* Apple Pay integration :toolbox:
 
 If registered: 
 * Form is prefilled with available user data :white_check_mark:
@@ -443,16 +394,12 @@ If registered:
 * users can immediatley transform wishlist into order :toolbox:
 
 ## Store Management:
-* ... can create/read/update/delete products in Django-Admin-View :white_check_mark:
-* ... can create/read/update/delete blogposts in Django-Admin-View :white_check_mark:
-* ... can create/read/update/delete FAQs in Django-Admin-View :white_check_mark:
-* ... can create/read/update/delete Users in Django-Admin-View :white_check_mark:
+* ... can create/read/update/delete products in Django-Admin-View
+* ... can create/read/update/delete blogposts in Django-Admin-View
+* ... can create/read/update/delete FAQs in Django-Admin-View
+* ... can create/read/update/delete Users in Django-Admin-View
 * ... Order Management system :toolbox:
 
-## Newsletter
-* User can sign up for newsletter :toolbox:
-* User get a coupon code for newsletter subscription :toolbox:
-* User can manage their subscription :toolbox:
 
 # Technologies Applied
 The following technologie were used during the development of the project.
@@ -504,10 +451,7 @@ A detailed description about the testing process and results can be found in the
 | Test Case                     |    iPhone Safari   |    iPhone Chrome   |     iPhone Edge    |     iPad Safari    |      iPad Edge     |     iPad Brave     | Mac  Edge          | Mac Safari         | Mac Chrome         |
 |-------------------------------|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|--------------------|--------------------|--------------------|
 | Test Navbar                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Footer                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Landing Page                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| About Page                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Help / Contact Page           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Shop                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Highlights                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Cart                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -535,14 +479,14 @@ Furthermore accounts with the following services are used in this project:
 
 ## Local Deployment: Step-by-Step Instructions
 
-Official Github Documentation on cloning a repositiory: [Github - Cloning Repos](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+Official Github Documentation on cloning a repositiory: [Github - Cloning Repos]
 
 1. Navigate to Mainpage of the repository
 2. Click on "Code" button
 3. Choose "Clone with HTTPs" & copy URL
 4. Open Terminal
 5. Change the current working directory to prefered location
-6. Type git clone and past copied URL ```git clone https://github.com/p0wen/puffins.git```
+6. Type git clone and past copied URL ```git clone https://github.com/ogunmakindetobi/swanclothing```
 7. Press Enter to create local Clone - Make sure your environment supports python3 -
 8. Type ```pip3 install -r requirements.txt``` into Terminal
 9. Setup the environment variables. This process is differnet depending on the used IDE. Gitpod supports global Environments for the development process. Therefore they were stored in the settings. The following variables are needed:
@@ -614,27 +558,17 @@ This project is deployed to Heroku. For the deployment the following steps were/
 # References, Credits & Acknowledgment
 
 ## Credits
+Code Institute
 
-- Logocreated by [Polardots Studio](https://www.polardots.studio/)
-
-## Content & Products
-
-- Written by me - inspired by [TwoThirds](twothirds.com)
-- All Products have been created by myself with [Figma](www.figma.com)
-- Tutorial on how to create Tshirts with figma [You Tube - Figma T-Shirt Tutorial](https://youtu.be/aSEkEvymFMw)
 
 ## Media
 
 Category Images: 
-* [Grown Ups](https://images.unsplash.com/photo-1490718687940-0ecadf414600?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80)
-* [Kids](https://images.unsplash.com/photo-1490826153516-b55d176cdb9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80)
-* [Partnerlook](https://unsplash.com/photos/pFGskZBc2rg)
+* [Code Institute](www.codeinstitute.net) Boutique Ado-Poject]
 
 ## Acknowledgements
 
 Special Thanks to...
-
-* ... [Polardots Studio](https://www.polardots.studio/)
 * ... my Code-Institute Mentor
 * ... Tutors and Fellow Students of CI 
 
