@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/p0wen/puffins.svg?branch=master)](https://travis-ci.org/p0wen/puffins)
 
 # Swanclothing
 
@@ -147,12 +146,7 @@ As a __store owner__, i want to...
 The wireframes were created in Figma. Figma is a cloud based desing tool which allows you to rapidly create prototypes, wireframes and layouts [Figma](www.figma.com)
 
 The whole figma project can be accessed here:
-[Puffins - Wireframes](https://www.figma.com/file/MhxXXrKoRhGyWMhX1cug2U/puffins?node-id=0%3A1)
 
-#### Logo
-
-
-![swanclothing  Logo](https://thepuffins.s3.amazonaws.com/media/swanclothing .png)
 
 The swanclothing text logo was created by me with (https://www.canva.com/).
 
@@ -182,8 +176,8 @@ The structure of the products and checkout app are based on the [Boutique Ado](h
 |--------------|------------|--------------------------------------------------------------|
 | name         | CharField(max_length=254)  | grown_ups                                                    |
 | display_text | CharField(max_length=254)  | Grown Ups                                                    |
-| image        | ImageField(null=True, blank=True) | grownup_puffin.png                                           |
-| image_url    | URLField(max_length=1024, null=True, blank=True)   | https://thepuffins.s3.amazonaws.com/media/grownup_puffin.png |
+| image        | ImageField(null=True, blank=True)                                           |
+| image_url    | URLField(max_length=1024, null=True, blank=True)  |
 
 ### Productline
 
@@ -206,11 +200,11 @@ The structure of the products and checkout app are based on the [Boutique Ado](h
 | date_of_dispatch    | CharField( max_length = 254 ,  blank = True ,  null = True )                                   | null      |
 | discontinued        | BooleanField( default = False )                                                                | false     |
 | image               | ImageField( null = True ,  blank = True )                                                      | passionatepuffin.png |
-| image_url           | URLField( max_length = 1024 ,  null = True ,  blank = True )                                   | https://thepuffins.s3.amazonaws.com/media/passionatepuffin.png  |
-| description         | TextField( null = True ,  blank = True )                                                       | Made with love and passion: the passionate puffin with its super soft, lightweight cotton fabric and neps in contrast colour has the perfect fit. Wear it on its own or as a base layer under a cardigan. Made the Puffins way, from organic linen from the EU for a great sustainable tee. T-shirts made from linen make you stay cool in the summer . They are more durable and also feel lighter. |
+| image_url           | URLField( max_length = 1024 ,  null = True ,  blank = True )                                   |  |
+| description         | TextField( null = True ,  blank = True )                                                       |  |
 | is_featured         | BooleanField( default = False ,  null = True ,  blank = True )                                 | True        |
-| color               | CharField( max_length = 254 ,  null = True )                                                   | grey        |
-| material_1          | CharField( max_length = 254 ,  null = True ,  blank = True )                                   | linen       |
+| color               | CharField( max_length = 254 ,  null = True )                                                   |         |
+| material_1          | CharField( max_length = 254 ,  null = True ,  blank = True )                                   |      |
 | material_2          | CharField( max_length = 254 ,  null = True ,  blank = True )                                   | ""          |
 
 ### Productsize
@@ -224,7 +218,7 @@ The structure of the products and checkout app are based on the [Boutique Ado](h
 
 | Name     | Type                                                  | Example |
 |----------|-------------------------------------------------------|---------|
-| product  | ForeignKey('Product', on_delete=models.CASCADE)       | 1       |
+| product  | ForeignKey('Product', on_delete=models.CASCADE)       | null      |
 | size     | ForeignKey('ProductSize', on_delete=models.CASCADE)   | XS      |
 | quantity | IntegerField( validators =[MinValueValidator( 0.0 )]) | 9       |
 
@@ -446,7 +440,7 @@ US/docs/Web/JavaScript)
 
 # Testing
 
-A detailed description about the testing process and results can be found in the [TESTING.md](https://github.com/p0wen/puffins/blob/master/TESTING.md). To give a brief overlook of the feature testing this table gives a codensed overview of the tested, features, devices, browsers and results:
+A detailed description about the testing process and results can be found in the [TESTING.md](https://github.com/ogunmakindetobi/swanclothing/blob/master/TESTING.md To give a brief overlook of the feature testing this table gives a codensed overview of the tested, features, devices, browsers and results:
 
 | Test Case                     |    iPhone Safari   |    iPhone Chrome   |     iPhone Edge    |     iPad Safari    |      iPad Edge     |     iPad Brave     | Mac  Edge          | Mac Safari         | Mac Chrome         |
 |-------------------------------|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|--------------------|--------------------|--------------------|
@@ -546,8 +540,6 @@ This project is deployed to Heroku. For the deployment the following steps were/
     3. ```python3 manage.py loaddata products```
     4. ```python3 manage.py loaddata proudctsize```
     5. ```python3 manage.py loaddata productvariants```
-    6. ```python3 manage.py loaddata blog ```
-    7. ```python3 manage.py loaddata faq ```
 11. Create a superuser for the Postgres database for accessing the django admin view with the following command:
     ```python3 manage.py createsuperuser``` You will be asked for an email address, username and password.
 12. Log in to heroku from your terminal ```heroku login```
@@ -576,7 +568,6 @@ Special Thanks to...
 * Project was developed by following the [Code Institute](www.codeinstitute.net) Boutique Ado-Poject lessons and was extended and modified to personal needs
 * Read up on making drop down full width [Stack Overflow - Fullwidth Dropdown Navbar](https://stackoverflow.com/questions/49659305/how-to-make-a-bootstrap-4-full-width-dropdown-in-navbar)
 * Horzizontal line readup [Stack Overflow - Horzizontal Line](https://stackoverflow.com/questions/16073323/horizontal-rule-line-beneath-each-h1-heading-in-css)
-* Tutorial on how to animate scrollbar [Youtube - Animat Scrollbar](https://www.youtube.com/watch?v=vE4UuSzR5T0)
 * How to custome style navbar [Medium - Bootstrap Custom Navbar ](https://medium.com/coder-grrl/the-guide-to-customising-the-bootstrap-4-navbar-i-wish-id-had-6-months-ago-7bc6ce0e3c71)
 * Starting point for carousel [Start Bootstrap - Full Slider](https://startbootstrap.com/snippets/full-slider/)
 * Inspiration for a mega menu [W3 Schools - Mega Menu](https://www.w3schools.com/howto/howto_css_mega_menu.asp)
