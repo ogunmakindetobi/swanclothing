@@ -1,7 +1,6 @@
 
 # Swanclothing
 
-[![Swanclothing](https://s3.console.aws.amazon.com/s3/buckets/tobaskid-swanclothing?region=eu-west-1&tab=objects)](https://tobaskid-swanclothing.herokuapp.com/)
 
 
 We at [__Swanclothing__](https://tobaskid-swanclothing.herokuapp.com/) are dedicated to provide beautiful, uniting and sustainable products to individuals, love birds and families. With our mehtod to only produce whats demanded by our customers and delivering longlasting, high quality products we want to counter the biggest problems of the western society. Our products are locally produced in Europe and we only use materials where we know the origin, to guarantee 100% ethical and sustainable products.
@@ -31,8 +30,6 @@ To test the site incl. the checkout process please use the test credit card numb
 - [Features](#features)
   * [Navbar](#navbar)
   * [Landing Page](#landing-page)
-  * [About Page](#about-page)
-  * [Help / Contact Page](#help---contact-page)
   * [Shop](#shop)
   * [Highlights](#highlights)
   * [Cart](#cart)
@@ -41,7 +38,6 @@ To test the site incl. the checkout process please use the test credit card numb
   * [Registered Users: Useraccount](#registered-users--useraccount)
   * [Registered Users: Wishlist](#registered-users--wishlist)
   * [Store Management:](#store-management-)
-  * [Newsletter](#newsletter)
 - [Technologies Applied](#technologies-applied)
   * [Databases](#databases)
   * [Languages](#languages)
