@@ -1,6 +1,6 @@
 # Introduction
 
-For this project different testing approaches where pursued. Core Testing method for The Puffins was manual testing and user testing. Additionally Testcases based on Django TestCase where introduced to this project to support the development process. In addition to testing the code ran through specific validation services to spot any irregularities or syntax errors. On top of that the project was posted to Code Institutes private #peer-code-review Slack Group to gather some more feedback from students and alumnis. The following documentation provides an detailed overview of the defined testcases, the automatic testing setup, validation service results and insights to challenging bugs that were encoutered during the development of this project.
+For this project different testing approaches where pursued. Core Testing method for The swanclothing was manual testing and user testing. Additionally Testcases based on Django TestCase where introduced to this project to support the development process. In addition to testing the code ran through specific validation services to spot any irregularities or syntax errors. On top of that the project was posted to Code Institutes private #peer-code-review Slack Group to gather some more feedback from students and alumnis. The following documentation provides an detailed overview of the defined testcases, the automatic testing setup, validation service results and insights to challenging bugs that were encoutered during the development of this project.
 
 # Table of Content
 
@@ -46,7 +46,6 @@ For this project different testing approaches where pursued. Core Testing method
    Shop  
     All productshttps://tobaskid-swanclothing.herokuapp.com/
    Clothing
-   About  
    Homewear
    Userprofile-icon  
    Cart-icon  

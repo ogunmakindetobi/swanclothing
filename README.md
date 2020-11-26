@@ -566,26 +566,7 @@ Special Thanks to...
 
 ## References 
 * Project was developed by following the [Code Institute](www.codeinstitute.net) Boutique Ado-Poject lessons and was extended and modified to personal needs
-* Read up on making drop down full width [Stack Overflow - Fullwidth Dropdown Navbar](https://stackoverflow.com/questions/49659305/how-to-make-a-bootstrap-4-full-width-dropdown-in-navbar)
-* Horzizontal line readup [Stack Overflow - Horzizontal Line](https://stackoverflow.com/questions/16073323/horizontal-rule-line-beneath-each-h1-heading-in-css)
-* How to custome style navbar [Medium - Bootstrap Custom Navbar ](https://medium.com/coder-grrl/the-guide-to-customising-the-bootstrap-4-navbar-i-wish-id-had-6-months-ago-7bc6ce0e3c71)
-* Starting point for carousel [Start Bootstrap - Full Slider](https://startbootstrap.com/snippets/full-slider/)
-* Inspiration for a mega menu [W3 Schools - Mega Menu](https://www.w3schools.com/howto/howto_css_mega_menu.asp)
-* Inspiration for product names [Magoosh - Positive adjectives](https://magoosh.com/english-speaking/english-vocab/positive-adjectives-the-ultimate-list)
-* Bases for toggling colappsed navbar background: [Stack Overflow - Navbar Toggle](https://stackoverflow.com/questions/32147082/changing-collapsed-navbar-list-background-color)
-* How to go back to previous page [Stack Overflow - JS Back Button](https://stackoverflow.com/questions/2968425/get-back-to-previous-page)
-* How to style crispy forms [Simple is Better Than Complex - Crispy Forms](https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html#custom-fields-placement-with-crispy-forms)
-* How to work with ajax and django:  
-    [Simple is Better Than Complex - Ajax & Django](https://simpleisbetterthancomplex.com/tutorial/2016/08/29/how-to-work-with-ajax-request-with-django.html)  
-    [Real Python - Django & Ajax form submission](https://realpython.com/django-and-ajax-form-submissions/)
-* How to avoid duplicates in database of productvariant (product & size) [Stack Overflow - Avoid Duplicates](https://stackoverflow.com/questions/3052975/django-models-avoid-duplicates)
-* How to handle names [Stack Overflow - Split First / Last Name](https://stackoverflow.com/questions/12340789/split-first-name-and-last-name-using-javascript)
-* How to control dates in template: [Our Code World - How to format date time in view and Template](https://ourcodeworld.com/articles/read/555/how-to-format-datetime-objects-in-the-view-and-template-in-django)
-* Work with many to many fields [Rev Sys - ManyToManyField](https://www.revsys.com/tidbits/tips-using-djangos-manytomanyfield/)
-* How to build your own blog [Medium - How to build you own Blog](https://medium.com/swlh/building-your-own-django-blog-part-2-78adbc516992)
-* Database tables in markdown created with: [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-* How to create unique slug: [SimpleIT Rocks - Automatically slug](https://simpleit.rocks/python/django/generating-slugs-automatically-in-django-easy-solid-approaches)/
-* Assign MEDIA URL for JS Files: [Stack Overflow - Django Static Path](https://stackoverflow.com/questions/27932983/django-static-path-in-javascript-file)
+
 
 
 # Fair use disclaimer
