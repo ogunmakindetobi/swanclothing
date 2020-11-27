@@ -167,7 +167,7 @@ For this project different testing approaches where pursued. Core Testing method
 2. Open [Swan clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Login with puffin1@byom.de pw: testuser1
 4. Click on shop
-5. Click Kids - T-Shirt or Grown Ups - Sweatshirts
+5. Click  - T-Shirt or Grown Ups - Sweatshirts
 5. Choose any product by clicking the image
 6. Heart below Add to Cart-Button should be visible
 
@@ -192,7 +192,7 @@ For this project different testing approaches where pursued. Core Testing method
 1. Open Browser
 2. Open [Swan clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on SHOP
-4. Click Kids - T-Shirthttps://tobaskid-swanclothing.herokuapp.com/
+4. Click - T-Shirthttps://tobaskid-swanclothing.herokuapp.com/
 5. Choose any product by clicking the image
 6. Add Item to Cart
 7. Side Drawer Cart should open
@@ -202,7 +202,7 @@ For this project different testing approaches where pursued. Core Testing method
 1. Open Browser
 2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on SHOP
-4. Click Kids - T-Shirthttps://tobaskid-swanclothing.herokuapp.com/
+4. Click  - T-Shirthttps://tobaskid-swanclothing.herokuapp.com/
 5. Choose any product by clicking the image
 6. Add Item to Cart
 7. Side Drawer Cart should open
@@ -227,7 +227,7 @@ For this project different testing approaches where pursued. Core Testing method
 1. Open Browser
 2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on SHOP
-4. Click Kids - all products,homewear,clothing,special offer
+4. Click - all products,homewear,clothing,special offer
 5. Choose any product by clicking the image
 6. Add Item to Cart
 7. Side Drawer Cart should open
@@ -251,7 +251,7 @@ For this project different testing approaches where pursued. Core Testing method
 1. Open Browser
 2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on SHOP
-4. Click Kids all products,homewear,clothing,special offer
+4. Click  all products,homewear,clothing,special offer
 5. Choose any product by clicking the image
 6. Add Item to Cart
 7. Side Drawer Cart should open
@@ -391,7 +391,6 @@ For this project different testing approaches where pursued. Core Testing method
 2. Open [Swan clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Login with 
 4. Click on SHOP
-5. Click Kids - T-Shirt or Grown Ups - Sweatshirts
 5. Choose any product by clicking the image
 6. Click Heart below Add to Cart-Button
 7. Heart should change from outline to filled
