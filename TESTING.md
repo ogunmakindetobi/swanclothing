@@ -85,17 +85,8 @@ For this project different testing approaches where pursued. Core Testing method
 4. Click collapse button
 5. Check that nav background changes to white and font to black
 
-## 2. Footer :white_check_mark:
 
-1. Open Browser
-2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
-3. Scroll to bottom
-   Logo is displayed  
-   Quicklinks to products are available  
-   Contact details are accessabile 
-   Link to About page is present
-
-## 3. Landing Page :white_check_mark
+## 2. Landing Page :white_check_mark
 
 1. Open Browser
 2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
@@ -171,7 +162,7 @@ For this project different testing approaches where pursued. Core Testing method
 5. Choose any product by clicking the image
 6. Heart below Add to Cart-Button should be visible
 
-## 7. Highlights :white_check_mark:
+## 4. Highlights :white_check_mark:
 
 ### Get Highlights :white_check_mark:
 1. Open Browser
@@ -179,7 +170,7 @@ For this project different testing approaches where pursued. Core Testing method
 3. Click on HIGHLIGHTS
 4. Only one Product 
 
-## 8. Cart :white_check_mark:
+## 5. Cart :white_check_mark:
 
 ### Check empty Cart :white_check_mark:
 1. Open Browser
@@ -322,7 +313,7 @@ For this project different testing approaches where pursued. Core Testing method
 10. Press "x" Button
 11. Page should be reloaded and item should be removed from cart
 
-## 9. Checkout :white_check_mark:
+## 6. Checkout :white_check_mark:
 
 ### Checkout AnonymousUser :white_check_mark:
 1. Open Browser
@@ -356,7 +347,7 @@ For this project different testing approaches where pursued. Core Testing method
 12. Loading
 13. Checkout success page should be shown
 
-## 10. Sign Up :white_check_mark:
+## 7. Sign Up :white_check_mark:
 
 ### Sign Up :white_check_mark:
 1. Open Browser
@@ -368,7 +359,7 @@ For this project different testing approaches where pursued. Core Testing method
 7. Confirm email
 8. Login with credentials
 
-## 11. Registered Users: Useraccount :white_check_mark:
+## 8. Registered Users: Useraccount :white_check_mark:
 
 1. Open Browser
 2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
@@ -402,7 +393,7 @@ For this project different testing approaches where pursued. Core Testing method
 4. Click on Heart-icon
 5. Should show wishlist with one liked item
 
-## 12. Store Management :white_check_mark:
+## 9. Store Management :white_check_mark:
 
 ### Product Management :white_check_mark:
 
