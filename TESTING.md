@@ -165,7 +165,7 @@ For this project different testing approaches where pursued. Core Testing method
 ### Logged-in-user: Get Product Details :white_check_mark:
 1. Open Browser
 2. Open [Swan clothing](https://tobaskid-swanclothing.herokuapp.com)
-3. Login with puffin1@byom.de pw: testuser1
+3. Login 
 4. Click on shop
 5. Click  - T-Shirt or Grown Ups - Sweatshirts
 5. Choose any product by clicking the image
@@ -185,14 +185,14 @@ For this project different testing approaches where pursued. Core Testing method
 1. Open Browser
 2. Open [Swan Clothing ](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on Cart-Icon
-4. Side Drawer Cart shohttps://tobaskid-swanclothing.herokuapp.com/
+4. Side Drawer Cart shop
 5. Placeholder "Nothing in Cart" should be displayed 
 
 ### Add item to Cart :white_check_mark:
 1. Open Browser
 2. Open [Swan clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on SHOP
-4. Click - T-Shirthttps://tobaskid-swanclothing.herokuapp.com/
+4. Click - 
 5. Choose any product by clicking the image
 6. Add Item to Cart
 7. Side Drawer Cart should open
@@ -202,7 +202,7 @@ For this project different testing approaches where pursued. Core Testing method
 1. Open Browser
 2. Open [Swan Clothing](https://tobaskid-swanclothing.herokuapp.com)
 3. Click on SHOP
-4. Click  - T-Shirthttps://tobaskid-swanclothing.herokuapp.com/
+4. Click 
 5. Choose any product by clicking the image
 6. Add Item to Cart
 7. Side Drawer Cart should open
