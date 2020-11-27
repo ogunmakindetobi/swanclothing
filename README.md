@@ -1,7 +1,7 @@
 
 # Swanclothing
 
-
+<img src="https://res.cloudinary.com/dghvtn8wd/image/upload/v1602162021/media/responsive.png">
 
 We at [__Swanclothing__](https://tobaskid-swanclothing.herokuapp.com/) are dedicated to provide beautiful, uniting and sustainable products to individuals, love birds and families. With our mehtod to only produce whats demanded by our customers and delivering longlasting, high quality products we want to counter the biggest problems of the western society. Our products are locally produced in Europe and we only use materials where we know the origin, to guarantee 100% ethical and sustainable products.
 
