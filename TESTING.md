@@ -395,6 +395,9 @@ For this project different testing approaches where pursued. Core Testing method
 
 ## 9. Store Management :white_check_mark:
 
+## 10. Contact page
+contact page only receive message through git pod terminal.
+
 ### Product Management :white_check_mark:
 
 #### Create Product :white_check_mark:
