@@ -96,6 +96,13 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+
+.form { 
+margin: 0 auto; 
+width:250px;
+text-align: center;
+}
+
 .btt-link,
 .update-link,
 .remove-item {
@@ -173,6 +180,8 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+
 
 /* -------------------------------- Media Queries */
 
@@ -297,6 +306,7 @@ input[name='q']::placeholder {
 
     .nav-link {
         padding: 0.15rem;
+        text-align: center;
     }
 
     .nav-link i.fa-lg {
@@ -326,4 +336,7 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+
+
 }
+
